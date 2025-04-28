@@ -1,0 +1,35 @@
+body {
+    background: linear-gradient(to right, pink, purple); /* Creates a gradient from pink to purple */
+    height: 100vh; /* Ensures the gradient covers the full height of the viewport */
+    transition: background 1s ease;
+    font-family: sans-serif;
+    text-align: center;
+}
+button{
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    color: antiquewhite;
+    transition: transform 0.1s ease-in-out, box-shadow 0.2s ease-in-out; /* Smooth transition for shadow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+button:active {
+    transform: scale(0.01); 
+}
+#sumar{
+    background-color: rgb(240, 60, 60);
+    padding: 25px 35px;
+    margin-bottom: 20px;
+}
+#restar{
+    background-color: rgb(74, 200, 152);
+    padding: 20px 30px;
+}    
+#contador{
+    color:antiquewhite;
+    padding: 20px 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 30px;
+    margin-top: 400px;
+}
