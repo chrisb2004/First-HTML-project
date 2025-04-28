@@ -14,7 +14,7 @@ button{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 button:active {
-    transform: scale(0.01); 
+    transform: scale(0.95); 
 }
 #sumar{
     background-color: rgb(240, 60, 60);
